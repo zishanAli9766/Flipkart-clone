@@ -1,0 +1,27 @@
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: '100%';
+    
+}
+.titles{
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.description{
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.tlh{
+  float: left;
+  margin-top: 12px;
+}
+.posi{
+  position: relative;
+  right: 35%;
+}
